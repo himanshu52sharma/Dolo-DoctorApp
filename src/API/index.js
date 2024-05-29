@@ -1,4 +1,4 @@
-var ServerURL = 'https://rapidhealth.me/api';
+var ServerURL = 'https://rapidhealth.thakurjitourstravels.com/api';
 var axios = require('axios');
 
 const getData = async url => {

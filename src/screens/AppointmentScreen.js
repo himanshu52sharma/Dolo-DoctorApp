@@ -315,7 +315,7 @@ console.log('fid==',id);
               <Text style={{...styles.cardTitle}}>Date Time</Text>
               <View style={styles.cardContent}>
                 <Text style={{...styles.cardText}}>
-                  {appointmentData?.created_at.toString().split('T')[0]}
+                  {appointmentData?.created_at?.toString().split('T')[0]}
                 </Text>
               </View>
               <View>
